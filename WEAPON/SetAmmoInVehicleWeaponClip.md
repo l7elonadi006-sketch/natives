@@ -17,3 +17,5 @@ NativeDB Introduced: v3407
 * **seat**: 
 * **ammo**: 
 
+// 0x873906720EE842C3
+BOOL _SET_AMMO_IN_VEHICLE_WEAPON_CLIP(Vehicle vehicle, int seat, int ammo);
