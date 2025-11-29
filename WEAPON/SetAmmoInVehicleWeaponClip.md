@@ -17,3 +17,10 @@ NativeDB Introduced: v3407
 * **seat**: 
 * **ammo**: 
 
+# config/packages/twig_component.yaml
+twig_component:
+    anonymous_template_directory: 'components/'
+    defaults:
+        # Namespace & directory for components
+        App\Twig\Components\: 'components/'
+        
